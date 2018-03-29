@@ -7,7 +7,8 @@ using TodoWebApi.Models;
 
 namespace TodoWebApi.Controllers
 {
-    [Produces("application/xml")]
+//    [Produces("application/xml")]
+    [Produces("application/json")]
     [Route("api/Todos")]
     public class TodosController : Controller
     {
